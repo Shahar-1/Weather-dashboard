@@ -68,3 +68,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Project Overview
+
+The **Skywalk** application consists of two main features:
+
+- **Weather Widget**: Displays current weather data for a specified location (Weather Check section).
+- **Todo List Widget**: Allows users to add, delete, and manage tasks(Todo Task Section).
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. **Clone the Repository**:
+   Open your terminal and run the following command to clone the repository:
+
+   ```bash
+   `git clone <repository-url>`
+
+   ```
+
+   2. **install packages**:
+      Open your terminal and run the following command to clone the repository:
+
+   ```bash
+   `npm install`
+
+   ```
