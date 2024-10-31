@@ -1,0 +1,75 @@
+.hourly-weather-container {
+  display: flex;
+  justify-content: space-between; /* Distributes cards evenly */
+  overflow-x: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #1e2a38; /* Dark background */
+  border-radius: 20px;
+  white-space: nowrap; /* Prevents cards from wrapping */
+}
+
+
+
+.hourly-weather-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px; /* Increases padding to make cards taller */
+  background-color: #293544; /* Card background color */
+  border-radius: 15px;
+  width: 20%; /* Adjust width as needed */
+  height: 120px; /* Adjust height to make the card taller */
+  color: white;
+  text-align: center;
+  margin-right: 8px; /* Small gap between cards */
+}
+
+.hourly-time {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.weather-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.hourly-temp {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Optional: Remove extra spacing at the end of the scroll */
+.hourly-weather-container::-webkit-scrollbar {
+  display: none;
+}
+.card-colour-outer{
+  background-color: #1e2a38 !important;
+  color: white !important;
+  /* padding-top: 4rem; */
+  padding-bottom: 4rem;
+}
+.border-radius{
+  border-radius: 7% !important;
+}
+.weather-button{
+  background-color: #293544 !important;
+  /* outline-color: #293544 ; */
+  border: #293544!important;
+}
+
+.input-shadow-custom:focus {
+  box-shadow: 0 0 0.25rem #293544 !important; /* Customize the shadow color (example: orange) */
+  border-color: #293544!important; /* Optional: change border color */
+}
+.hourly-weather-container {
+  overflow-x: auto; /* Allow horizontal scroll if content exceeds width */
+}
+
+.hourly-weather-card {
+  min-width: 4rem; /* Set minimum width */
+}

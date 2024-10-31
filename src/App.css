@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+/* App.css or your global CSS file */
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #293544; /* Light gray with higher opacity */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2c3e50; /* Darker gray when hovered */
+}
+
+
+
+@import url(/src/styles/WidgetCard.css);
+@import url(/src/styles/CustomNavBar.css);
+@import url(/src/styles/CustomSidebar.css);

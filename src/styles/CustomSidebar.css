@@ -1,0 +1,10 @@
+.logo-img-circle {
+  width: 4em;
+  height: 4em;
+}
+.bg-color{
+  background-color: #072A3D;
+}
+.body-height{
+  min-height: 100vh;
+}
