@@ -95,3 +95,19 @@ Follow these steps to set up the project locally:
    `npm install`
 
    ```
+
+   3. **Get an OpenWeatherMap API Key**:
+      To use this weather widget, you'll need an API key from OpenWeatherMap:
+      Sign up or log in to OpenWeatherMap.
+      Go to your API Keys page and create a new API key.
+      Copy your API key; you'll use it in the next step.
+
+```
+
+```
+
+2. **Add Your API Key**:
+   To securely provide your API key, follow these steps:
+   In the root of the project, create a .env file if it doesn’t already exist.
+   Add your API key to the .env file like this:
+   **Here the key is included within the file for quick testing and should ideally be replaced with each user’s own key for any extended use**:
