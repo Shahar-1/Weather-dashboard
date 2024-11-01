@@ -103,10 +103,6 @@ Follow these steps to set up the project locally:
       Go to your API Keys page and create a new API key.
       Copy your API key; you'll use it in the next step.
 
-```
-
-```
-
 2. **Add Your API Key**:
    To securely provide your API key, follow these steps:
    In the root of the project, create a .env file if it doesn’t already exist.
