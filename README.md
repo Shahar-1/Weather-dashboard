@@ -93,6 +93,7 @@ Follow these steps to set up the project locally:
 
    ```bash
    `npm install`
+   `npm start`
 
    ```
 
